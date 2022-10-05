@@ -11,8 +11,7 @@ The user is given instructions letting them know that this is a timed quiz and f
 
 Using an array of objects for the questions and answers allows for the questions to have different multiple choice answer counts.
 
-[GitHub Challenge 4 Live Site] 
-(https://drewsparker.github.io/challengeThreePasswordGen/)
+[GitHub Challenge 4 Live Site](https://drewsparker.github.io/challengeFourQuiz/)
 
 ## Future Enhancements
 - Some areas for potential improvement include timer resetting for when user clicks back in the browser.
