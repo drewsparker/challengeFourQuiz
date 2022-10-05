@@ -1,0 +1,38 @@
+:root {
+  --purple: #8e28e7;
+}
+
+.custom-header {
+  color: var(--purple);
+}
+
+.custom-highscores {
+  background-color: #ba7eee;
+}
+
+button {  
+  color: white;
+  transition: 0.25s;
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  
+  &:hover,
+  &:focus { 
+    border-color: var(--hover);
+    color: #fff;
+  }
+}
+
+.custom-button {
+  background-color: var(--purple);
+}
+
+.custom-button:hover,
+.custom-button:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--purple);
+  transform: translateY(-0.25em);
+}
